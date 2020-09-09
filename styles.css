@@ -1,6 +1,6 @@
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   font-family: sans-serif;
@@ -52,7 +52,7 @@ body {
 .group:nth-child(1) {
   min-height: 19rem;
 }
-.instagram-logo{
+.instagram-logo {
   height: 3rem;
 }
 .perfil-foto {
@@ -79,7 +79,7 @@ body {
 }
 
 .not-account {
-  color: rgb(160,160,160);
+  color: rgb(160, 160, 160);
 }
 .link-blue {
   color: #0095f6;
@@ -105,25 +105,25 @@ body {
   background-size: cover;
 }
 .app-download:nth-child(1) {
-  background-image: url('/imgs/apple-button.png');
+  background-image: url("/imgs/apple-button.png");
 }
 .app-download:nth-child(2) {
-  background-image: url('/imgs/googleplay-button.png');
+  background-image: url("/imgs/googleplay-button.png");
 }
 
-@media(max-width:1024px){
+@media (max-width: 1024px) {
   .container {
     width: 90%;
   }
 }
-@media(max-width:650px) {
+@media (max-width: 650px) {
   body {
     background: #fff;
   }
   .container {
     width: 90%;
   }
-  .container .fone{
+  .container .fone {
     display: none;
   }
   .container .continue {
